@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'gunplay';
+    src: url('gunplay\ rg.otf');
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'gunplay';
+}
+.botao{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    box-shadow: 2px,2px,2px;
+}
+.botao:hover{
+    background-color: rgb(109, 109, 109);
+}
+.botoes{
+    
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+.principal{
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+}
+.principal img{
+    width: 475px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
