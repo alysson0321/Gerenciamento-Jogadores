@@ -29,8 +29,13 @@ h1{
 }
 p{
     font-family: 'Times New Roman', Times, serif;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    justify-content: end;
+    border: 1px solid #000000;
+    padding: 5px;
 }
 .principal{
     text-align: center;

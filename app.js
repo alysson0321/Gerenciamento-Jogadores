@@ -27,7 +27,8 @@ function criarjogador(){
 
 function mostrarjogadores(){
     document.write('<h1>Jogadores cadastrados: </h1>');
-    listajogadores.forEach(function(jogador) {
+    for (let i = 0; i < listajogadores.length; i++) {
+        let jogador = listajogadores[i];
         document.write("<p>Nome: " + jogador.getNome() + ", Clube: " + jogador.getClube() + ", Idade: " + jogador.getIdade() + "</p>");
-    });
+    };
 }
